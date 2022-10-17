@@ -1,0 +1,149 @@
+html,body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #5a4f4f;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	box-shadow:1px 1px 2px 2px #5a3f3f;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 400px;
+	height: 450px;
+	/*border: 2px solid red;*/
+}
+.header{
+	/*border: 2px solid red;*/
+	width: inherit;
+	height: auto;
+	text-align: center;
+	color: white;
+}
+.entry{
+	/*border: 2px solid red;*/
+	display: flex;
+	height: 100px;
+	color: white;
+	justify-content: space-around;
+	align-items: center;
+	width: inherit;
+}
+.entry input{
+	width: 250px;
+	height: 30px;
+	border-style: none;
+	box-shadow: 2px 2px 2px 2px #5a3f3f;
+	border-radius: 15px;
+	border: none;
+	outline: none;
+	padding:0px 5px;
+	text-align: center;
+}
+.entry button{
+	box-shadow: 2px 2px 2px 2px #5a3f3f;
+	border-radius: 15px;
+	height: 30px;
+	width: 80px;
+	border: none;
+	transition-duration: 0.2s;
+}
+.entry button:hover{
+	background-color: #4CAF50;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.list{
+	color: white;
+	width: inherit;
+	height: inherit;
+	overflow-y: scroll;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.list input{
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+}
+
+.list button{
+	box-shadow: 2px 2px 2px 2px #5a3f3f;
+	border-radius: 15px;
+	height: 30px;
+	width: 80px;
+	border: none;
+	transition-duration: 0.2s;
+}
+.list button:hover{
+	background-color: #f43535;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+#task_list{
+	width: inherit;
+	height: 300px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 0px;
+	padding:0px 20px;
+}
+#task_list li{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.list::-webkit-scrollbar {
+  width: 5px;
+  position: absolute;
+}
+
+.list::-webkit-scrollbar-track {
+  background: #5a4f4f;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background-color:#808080;
+  border-radius: 20px;
+}
+
+#tsk{
+	margin: 2px;
+	padding: 2px;
+}
+
+
+@media(max-width: 425px){
+	.container{
+		width: 300px;
+	}
+	.entry input{
+		width: 210px;
+	}
+	.entry button{
+		width: 60px;
+	}
+	#task_list{
+		padding: 0px 10px;
+	}
+}
+
+@media(max-width: 320px){
+	.container{
+		width: 260px;
+	}
+	.entry input{
+		width: 180px;
+	}
+	.entry button{
+		width: 50px;
+	}
+}
