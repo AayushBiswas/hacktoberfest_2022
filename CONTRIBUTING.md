@@ -64,7 +64,7 @@ The steps to follow to contribute to any projects:
 
 ## 🔥 What will happen after my contribution?
 
-I have created a simple page to display all contributors list [here](https://github.com/keshavgbpecdelhi/Web-Development/graphs/contributors), your name should appear shortly after the pull request is merged.
+I have created a simple page to display all contributors list [here](https://github.com/aayushbiswas/hacktoberfest_2022/graphs/contributors), your name should appear shortly after the pull request is merged.
 
 ---
 
