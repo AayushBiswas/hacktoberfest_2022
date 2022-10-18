@@ -1,6 +1,7 @@
 # How Can I Contribute?
 
 Don't know how to start of open source and Contribute to our Open Source Project ? Welcome to the world of hacking!
+Pls star the repository before submitting a pull request
 
 The steps to follow to contribute to any projects:
 
