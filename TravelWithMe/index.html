@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Travel with me</title>
+</head>
+
+<body>
+  <!-- responsive navbar using bootstrap..-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">@travelwithme</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/about_us.html">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item"
+                  href="https://www.emirates.com/in/english/book/?gclid=Cj0KCQjwgMqSBhDCARIsAIIVN1WL7Gi2B9hfLOrxHrA5KtBELVF96wfNgvGT9XMYiMR-GEyyJBFbQbcaArztEALw_wcB&gclsrc=aw.ds">Airline
+                  Service</a></li>
+              <li><a class="dropdown-item" href="/contact.html">contact us</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="https://gmail.com">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://www.cdc.gov">Travel guide</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://facebook.com">join us</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--Carousel using bootstrap-->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="https://source.unsplash.com/random/1920x500/?travel" class="d-block w-100" alt="SP IS OFFINE">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Let`s go</h2>
+          <h5>Traveling is the spice of life</h5>
+          <a href="https://instagram.com"><button type="button" class="btn btn-success btn-sm">Instagram</button></a>
+          <a href="https://facebook.com"><button type="button" class="btn btn-danger btn-sm">Facebook</button></a>
+          <a href="https://twitter.com"><button type="button" class="btn btn-warning btn-sm">Twitter</button></a>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://source.unsplash.com/random/1920x500/?adventure" class="d-block w-100" alt="SP IS OFFINE">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>The whole world awaits</h2>
+          <h5>Traveling opens door to creating memories.</h5>
+          <a href=""><button type="button" class="btn btn-success btn-sm">Instagram</button></a>
+          <a href=""><button type="button" class="btn btn-danger btn-sm">Facebook</button></a>
+          <a href=""><button type="button" class="btn btn-warning btn-sm">Twitter</button></a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/random/1920x500/?hill" class="d-block w-100" alt="SP IS OFFINE">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Time to Travel</h2>
+          <h5>To the world of an incredible vacation</h5>
+          <a href=""> <button type="button" class="btn btn-success btn-sm">Instagram</button></a>
+          <a href=""> <button type="button" class="btn btn-danger btn-sm">Facebook</button></a>
+          <a href=""> <button type="button" class="btn btn-warning btn-sm">Twitter</button></a>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Card using bootstrap-->
+  <div class="card text-center">
+    <div class="card-header">
+      Featured
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Travel in our blood</h5>
+      <h6 class="card-text">No matter where youre going from,we take you there</h6>
+      <a href="https://www.thomascook.in/holidays/international-tour-packages" class="btn btn-primary">Go somewhere</a>
+    </div>
+    <div class="card-footer text-muted">
+      2 days ago
+    </div>
+  </div>
+  <!--cards-->
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card">
+        <a
+          href="https://www.viator.com/tours/Kathmandu/Best-Nepal-Tour-Package/d5109-71176P3?m=28353&supag=71427121115&supca=1939178107&supsc=dsa-648510825722&supai=420120885969&supdv=c&supnt=g&suplp=9299348&supli=&supti=dsa-648510825722&tsem=true&supci=dsa-648510825722&supap1=&supap2=&gclid=Cj0KCQjwgMqSBhDCARIsAIIVN1VNXdrcFSMxoBWP61l0RH95F9R6nKMoBVRYcEPNlGZYWr3iASkSUi0aAi5mEALw_wcB">
+          <img src="https://source.unsplash.com/random/1920x500/?island" class="card-img-top" alt="SP IS OFFLINE"></a>
+        <div class="card-body">
+          <h5 class="card-title">India,Nepal</h5>
+          <p class="card-text">Yatra.com offers best deals on India tour packages,a wide range of customised vacation
+            packages and explore all exciting tourist destinations in India.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <a
+          href="https://www.viator.com/Paris-tourism/d479-r6517252571-s109979411?supci=-1&m=28353&supag=6517252571&supsc=aud-435409373039%3Akwd-330444369049&supai=273112274788&supap=&supdv=c&supnt=nt%3Ag&suplp=9299348&supli=1006094&supti=aud-435409373039%3Akwd-330444369049&tsem=true&supci=aud-435409373039%3Akwd-330444369049&supap1=&supap2=&gclid=Cj0KCQjwgMqSBhDCARIsAIIVN1W73jMtzeBWeDa2JJZ8X-UKOpDFZ05ysg4avHRStLRV2UuuLzlYRNoaAmJjEALw_wcB"><img
+            src="https://source.unsplash.com/random/1920x500/?mountain" class="card-img-top" alt="SP IS OFFLINE"></a>
+        <div class="card-body">
+          <h5 class="card-title">Paris,France</h5>
+          <p class="card-text">10 Best Tours in Paris, France · Paris Illuminations 1-Hour Cruise · Guided Tour of
+            Versailles Palace · Guided Tour of Opera Garnier · Louvre Museum ...</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a
+          href="https://www.visitsaudi.com/en/welcome-to-arabia-ind?gclid=Cj0KCQjwgMqSBhDCARIsAIIVN1UmuxrOrv9uErcG4M6OMqalAF59hDioeuCdplln9POi1nozJUOEYXMaAsLgEALw_wcB&gclsrc=aw.ds&adobe_mc_sdid=SDID%3D338DEE5B8CDD6415-1E570194FC5431BE%7CMCORGID%3D1A3418245D5E4AB60A495C9C%40AdobeOrg%7CTS%3D1649651394&adobe_mc_ref=https%3A%2F%2Fwww.google.com%2F"><img
+            src="https://source.unsplash.com/random/1920x500/?river" class="card-img-top" alt="SP IS OFFLINE"></a>
+        <div class="card-body">
+          <h5 class="card-title">Dubai,UAE</h5>
+          <p class="card-text">Visiting the BurjKhalifa, go skydiving, have a lake ride at the Dubai Fountain, go on a
+            desert safari with a BBQ meal, ride the rides at the Wild Wadi waterpark ...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!--end card-->
+
+
+
+  <!--card2-->
+  <div class="card">
+    <div class="card-header">
+      Featured
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">incredible India</h5>
+      <p class="card-text">"India is not a nation,nor a country.It is a subcontinent of nationalities."</p>
+      <p>-Muhammad Ali jinnah</p>
+      <a href="https://www.bharatbooking.com/holiday-tour/himachal?gclid=Cj0KCQjwgMqSBhDCARIsAIIVN1UNgUT00CVgChb7fCuaaKPxzZ8jXgG1ieU4bEAMeeEncmOf3Orbq_oaApI2EALw_wcB"
+        class="btn btn-primary">India TOUR</a>
+    </div>
+  </div>
+  <!--card2end-->
+  <hr>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="feature col">
+      <div class="feature-icon bg-success bg-gradient">
+        <svg class="bi" width="1em" height="1em">
+          <use xlink:href="#collection"></use>
+        </svg>
+      </div>
+      <h2>China Tour</h2>
+      <p>china tour packages offers customizeable and exciting guided tours to China and East Asia at competitive
+        prices. Create your trip to China today!</p>
+      <a href="https://www.thomascook.in/holidays/international-tour-packages/china-tour-packages" class="icon-link">
+        Call to action
+        <svg class="bi" width="1em" height="1em">
+          <use xlink:href="#chevron-right"></use>
+        </svg>
+      </a>
+    </div>
+    <div class="feature col">
+      <div class="feature-icon bg-warning bg-gradient">
+        <svg class="bi" width="1em" height="1em">
+          <use xlink:href="#people-circle"></use>
+        </svg>
+      </div>
+      <h2>Thailand Tour</h2>
+      <p>Popular Thailand Tour Packages ; Vibe in Bangkok - 4 nights Package, 5 Days/4 Nights, ₹30,496 ; Escape to
+        Bangkok & Pattaya Package, 5 Days/4 Nights, ₹33,518.</p>
+      <a href="https://www.yatra.com/international-tour-packages/holidays-in-thailand" class="icon-link">
+        Call to action
+        <svg class="bi" width="1em" height="1em">
+          <use xlink:href="#chevron-right"></use>
+        </svg>
+      </a>
+    </div>
+    <div class="feature col">
+      <div class="feature-icon bg-danger bg-gradient">
+        <svg class="bi" width="1em" height="1em">
+          <use xlink:href="#toggles2"></use>
+        </svg>
+      </div>
+      <h2>Japan Tour</h2>
+      <p>Get going on the journey of a lifetime, with our specially crafted Japan tour packages. Get set to explore
+        Tokyo, Osaka, Kyoto, Nagoya & more on your Japan ...</p>
+      <a href="https://www.itswellness.org/english/l-japan-forests/" class="icon-link">
+        Call to action
+        <svg class="bi" width="1em" height="1em">
+          <use xlink:href="#chevron-right"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+  <hr>
+  <!--reviw-->
+  <div class="container my-5 mx-auto">
+    <div class="row">
+      <div class="col-sm-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="curly_tales.webp" alt="">
+
+        <h2>Curly Tales</h2>
+        <p>Discover intriguing and exciting things to do in your neighborhood and around the world. From delicious food
+          to travel inspiration to amazing experiences,</p>
+        <p><a class="btn btn-success" href="https://curlytales.com/travel-tales/">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-sm-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+          src="Jeevan-Kadam-Marathi-Travel-Vlogger.jpg" alt="">
+
+        <h2>Jeevan Kadam Vlog</h2>
+        <p>Hi! I’m Jeevan kadam — an adventure travel trekker, professional blogger, and digital nomad.Jeevan has1 job listed on their profile.see the complete profile</p>
+        <p><a class="btn btn-warning" href="https://jeevankadamvlogs.com/">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-sm-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="
+          travels.jpg" alt="">
+
+        <h2>Travel See Write</h2>
+        <p>Archana Singh, a Brand Strategist turned Travel Blogger, who travels to offbeat places in search of untold
+          human stories.An award-winning travel blog</p>
+        <p><a class="btn btn-danger" href="https://www.travelseewrite.com/">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div>
+    <hr>
+    <!--sign up and logn in buttons using bootstrap-->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Sign Up
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Create New Account</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+              <fieldset class="row mb-3">
+                <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                      checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Male
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      Female
+                    </label>
+                  </div>
+                  <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                    <label class="form-check-label" for="gridRadios3">
+                      Other
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
+              <div class="row mb-3">
+                <div class="col-sm-10 offset-sm-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                      I have read and agree with the all terms and conditions
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <a href="https://policies.google.com/terms?hl=en-US"><button type="submit" class="btn btn-link">terms &
+                  conditions</button></a>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--button for log in-->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      Log In
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Already Have Account Log In</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Let me In</label>
+              </div>
+              <a href="https://www.google.com/intl/en_in/drive/"><button type="submit" class="btn btn-link">sync and
+                  backup my data to onedrive or google drive</button></a>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Log In</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <hr>
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>© 2017–2022 @TravelwithmeCompany,Inc. * <a href="https://cloud.google.com/terms">Privacy</a> * <a
+          href="https://cloud.google.com/terms">Terms</a></p>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
