@@ -48,7 +48,7 @@ You can get your own fork/copy of [HacktoberFest-2022](https://github.com/Aayush
 You need to clone or (download) it to local machine using
 
 ```sh
-$ git clone https://github.com/Your_Username/Hacktoberfest-2022.git
+$ git clone https://github.com/Your_Username/hacktoberfest_2022.git
 ```
 
 > This makes a local copy of the repository in your machine.
@@ -56,8 +56,8 @@ $ git clone https://github.com/Your_Username/Hacktoberfest-2022.git
 Once you have cloned the `Hacktoberfest-2022` repository in Github, move to that folder first using change directory command on Linux, Mac, and Windows(PowerShell to be used).
 
 ```sh
-# This will change directory to a folder Hacktoberfest-2022
-$ cd Hacktoberfest-2022
+# This will change directory to a folder hacktoberfest_2022
+$ cd hacktoberfest_2022
 ```
 
 Move to this folder for all other commands.
@@ -68,11 +68,11 @@ Run the following commands to see that *your local copy* has a reference to *you
 
 ```sh
 $ git remote -v
-origin  https://github.com/Your_Username/Hacktoberfest-2022.git (fetch)
-origin  https://github.com/Your_Username/Hacktoberfest-2022.git (push)
+origin  https://github.com/Your_Username/hacktoberfest_2022.git (fetch)
+origin  https://github.com/Your_Username/hacktoberfest_2022.git (push)
 ```
 
-Now, let's add a reference to the original [Hacktoberfest-2022](https://github.com/AayushBiswas/hacktoberfest_2022) repository using
+Now, let's add a reference to the original [hacktoberfest_2022](https://github.com/AayushBiswas/hacktoberfest_2022) repository using
 
 ```sh
 $ git remote add upstream https://github.com/AayushBiswas/hacktoberfest_2022.git
@@ -84,16 +84,16 @@ See the changes using
 
 ```sh
 $ git remote -v
-origin    https://github.com/Your_Username/Hacktoberfest-2022.git (fetch)
-origin    https://github.com/Your_Username/Hacktoberfest-2022.git (push)
-upstream  https://github.com/Remote_Username/Hacktoberfest-2022.git (fetch)
-upstream  https://github.com/Remote_Username/Hacktoberfest-2022.git (push)
+origin    https://github.com/Your_Username/hacktoberfest_2022.git (fetch)
+origin    https://github.com/Your_Username/hacktoberfest_2022.git (push)
+upstream  https://github.com/Remote_Username/hacktoberfest_2022.git (fetch)
+upstream  https://github.com/Remote_Username/hacktoberfest_2022.git (push)
 ```
 `In your case, you will see`
 ```sh
 $ git remote -V
-origin    https://github.com/Your_Username/Hacktoberfest-2022.git (fetch)
-origin    https://github.com/Your_Username/Hacktoberfest-2022.git (push)
+origin    https://github.com/Your_Username/hacktoberfest_2022.git (fetch)
+origin    https://github.com/Your_Username/hacktoberfest_2022.git (push)
 upstream  https://github.com/AayushBiswas/hacktoberfest_2022.git (fetch)
 upstream  https://github.com/AayushBiswas/hacktoberfest_2022.git (push)
 ```
@@ -113,7 +113,7 @@ $ git checkout main
 # Reset local `main` branch to match the `upstream` repository's `main` branch
 $ git reset --hard upstream/main
 
-# Push changes to your forked `Hacktoberfest-2021` repo
+# Push changes to your forked `hacktoberfest_2022` repo
 $ git push origin main
 ```
 
