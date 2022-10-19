@@ -75,7 +75,7 @@ origin  https://github.com/Your_Username/Hacktoberfest-2022.git (push)
 Now, let's add a reference to the original [Hacktoberfest-2022](https://github.com/AayushBiswas/hacktoberfest_2022) repository using
 
 ```sh
-$ git remote add upstream https://github.com/kishanrajput23/Hacktoberfest-2022.git
+$ git remote add upstream https://github.com/AayushBiswas/hacktoberfest_2022.git
 ```
 
 > This adds a new remote named ***upstream***.
@@ -94,8 +94,8 @@ upstream  https://github.com/Remote_Username/Hacktoberfest-2022.git (push)
 $ git remote -V
 origin    https://github.com/Your_Username/Hacktoberfest-2022.git (fetch)
 origin    https://github.com/Your_Username/Hacktoberfest-2022.git (push)
-upstream  https://github.com/kishanrajput23/Hacktoberfest-2022.git (fetch)
-upstream  https://github.com/kishanrajput23/Hacktoberfest-2022.git (push)
+upstream  https://github.com/AayushBiswas/hacktoberfest_2022.git (fetch)
+upstream  https://github.com/AayushBiswas/hacktoberfest_2022.git (push)
 ```
 
 ### 4. Sync it :recycle:
