@@ -1,0 +1,59 @@
+</style>
+<font size='14'>
+<font face="georgia">
+<h1 align='center'> E-Learning</h1>
+</font>
+
+<video width="400" controls>
+  <source src="calculus.mp4" type="video/mp4">
+  <source src="calculus.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+<p> <font size='7'>
+<a href="https://youtu.be/WsQQvHm4lSw" target="_blank">CALCULUS </a>
+</font></p>
+
+<video width="400" controls>
+  <source src="Applied.mp4" type="video/mp4">
+  <source src="Applied.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+<p> <font size='7'> 
+<a href="https://youtu.be/vxFYfumAAlY">APPLIED PHYSICS </a> </font>
+</p>
+
+<video width="400" controls>
+  <source src="English.mp4" type="video/mp4">
+  <source src="English.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+<p> <font size='7'>
+<a href="https://youtu.be/KGImUx4zg64">English Process writing</a> </font>
+</p>
+
+<p> <font size='5'>CALCULUS Lecture Audio </p>
+<audio controls> 
+  <source src="calculusaudio.ogg" type="audio/ogg">
+  <source src="calculusaudio.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio><br>
+
+<p> <font size='5'> APPLIED PHYSICS Lecture Audio </p>
+<audio controls>
+  <source src="Appliedaudio.ogg" type="audio/ogg">
+  <source src="Appliedaudio.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio><br>
+
+<p> <font size='5'> ENGLISH Process Writing Lecture Audio</p>
+<audio controls>
+  <source src=".Eng" type="audio/ogg">
+  <source src="Eng.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio><br>
+</font>
+</body>
+</html>
+
+</body>
+</html>
