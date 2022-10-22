@@ -10,9 +10,12 @@ Register anytime between September 26 and October 31
 
   <h2> Follow Rules</h2>
 
+
   - Every program/file must be in correct folder</h3>
 
   - Star my repo </h3>
+ 
+  - For other programming languages than html, css, js must upload screenshot or video </h3>
 
   - only genuine contributions are accepted</h3>
 
